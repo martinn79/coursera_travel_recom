@@ -6,7 +6,7 @@
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "Sydney.jpg",
+            "imageUrl": "country.jpeg",
             "timezone": "Australia/NSW",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
@@ -59,7 +59,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "AngkorWat.jpg",
+        "imageUrl": "temple.jpeg",
         "timezone": "Asia/Bangkok",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
@@ -75,7 +75,7 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
-        "imageUrl": "BoraBora.jpg",
+        "imageUrl": "beach.jpeg",
         "timezone": "Pacific/Tahiti",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
