@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel recommendations</title>
+        <link rel="stylesheet" href="travel_recommendation.css">
+    </head>
+    <body>
+        <nav>
+            <h1>Travel recommendations</h1>
+            <ul>
+                <li>
+                    <a href="travel_recommendation.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div>
+
+            </div>
+        </nav>
+        <div class="container">
+            <div id="socialLinks">
+                <a href="https://www.x.com"><img src="x.png" alt="x.com"></a>
+                <a href="https://www.facebook.com"><img src="facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com"><img src="instagram.png" alt="instagram"></a>
+                <a href="https://www.youtube.com"><img src="youtube.png" alt="youtube"></a>
+            </div>                        
+            <h1 id="introduction">Contact Us</h1>
+            <p id="abstract">
+                Get in touch
+            </p>    
+            <form id="contactForm">
+                <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                <label for="condition">Condition</label>
+                <input type="text" id="condition" name="condition" required>
+                </div>
+                <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" onclick="thankyou()">Submit</button>
+            </form>
+            <script>
+                function thankyou(){
+                    alert('Thank you for contacting us!')
+                }
+            </script>
+        </div>
+    </body>
+</html>

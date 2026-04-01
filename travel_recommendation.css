@@ -1,0 +1,175 @@
+#searchBar {
+    display: flex;
+    gap: .2rem;
+}
+nav {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+h1 {
+    margin: 0
+}
+  
+.container {
+    padding: 20px 0;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1400px;
+}
+
+#introduction {
+    width: 400px;
+    font-variant: small-caps;
+    margin: 120px 0 0 140px;
+    padding: 40px;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+}
+
+#abstract {
+    width: 600px;
+    margin: 40px 0 0 140px;
+    padding: 40px;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+}
+
+#socialLinks {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    left: 20px;
+    top: 400px;
+    background-color: rgba(255,255,255,.3);
+    padding: 100px 6px;
+}
+
+#socialLinks img {
+    height: 36px;
+}
+
+#btBookNow {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    margin: 20px 0 0 180px;
+}
+
+#team {
+    margin: 40px 140px 0 140px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+}
+
+.memberCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.memberPhoto, .memberName, .memberDescription, .memberJobTitle {
+    text-align: center;
+}
+
+.memberPhoto img {
+    width: 60px;
+}
+
+.memberJobTitle {
+    padding: 10px;
+    .memberJobTitle span {
+        background-color: rgb(138, 188, 253);
+        border-radius: 6px;
+        padding: 6px;
+        color: #fff
+    }    
+}
+
+#contactForm {
+    background-color: rgba(0,0,0,.3);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    color: #fff;
+  }
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+  #contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #contactForm button:hover {
+    background-color: #0056b3;
+  }
+
+#recommendations {
+    margin: 120px 0 0 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#recommendations .result {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    width: 300px;
+    height: 350px;
+    margin: 12px 12px;
+}
+
+#recommendations .result .recImg img {
+    width: 300px;
+    height: 200px;
+}
+
+#recommendations .result .recName {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#recommendations .result .recLocalTime {
+    text-align: center;
+    background-color: #000;
+    color: #fff;    
+}
+
+#recommendations .result .recDescription {
+    text-align: center;
+    padding: 10px 6px;
+}
